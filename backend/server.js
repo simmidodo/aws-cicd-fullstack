@@ -3,7 +3,7 @@ const app = express();
 const port = 3001;
 
 app.get('/api/health', (req, res) => {
-  res.json({ status: 'Backend running ✅' });
+  res.json({ status: 'Backend running' });
 });
 
 app.listen(port, () => {
