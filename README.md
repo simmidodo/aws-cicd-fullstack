@@ -4,7 +4,7 @@ to show **infrastructure-as-code (IaC) readiness.
 
 ---
 
-## 🚀 Tech Stack
+##  Tech Stack
 - **Frontend**: React (Vite) + Nginx (production idea)
 - **Backend**: Node.js (Express)
 - **Database**: MySQL (schema + seed data)
@@ -65,7 +65,7 @@ Database
 mysql -u root -p < db/schema.sql
 Creates a database appdb and a sample users table with demo records.
 
-🛠️ Infrastructure Notes
+#Infrastructure Notes
 Terraform files under infra/terraform are a safe skeleton (no resources created).
 
 Nginx config (infra/nginx/default.conf) shows how to proxy frontend → backend via Internal ALB.
@@ -79,7 +79,7 @@ proxy_pass http://<internal_alb_dns>;
 
 proxy_pass <internal_alb_dns>;
 
-Architecture Diagram
+#Architecture Diagram
 flowchart LR
   U[User] --> A[Public ALB]
   A --> W[EC2 Web Tier (Nginx + React)]
