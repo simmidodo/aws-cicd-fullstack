@@ -14,7 +14,7 @@ to show **infrastructure-as-code (IaC) readiness.
 ---
 
 ## 📂 Repository Layout
-.
+```
 ├── README.md
 ├── frontend/ # React frontend scaffold
 │ ├── package.json
@@ -39,6 +39,8 @@ to show **infrastructure-as-code (IaC) readiness.
 │ └── web-tier-user-data.txt
 └── .github/workflows/
 └── ci.yml # CI checks (frontend + backend)
+
+```
 
 
 ---
