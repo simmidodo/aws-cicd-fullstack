@@ -75,7 +75,7 @@ The EC2 user-data script (infra/web-tier-user-data.txt) includes the critical fi
 Correct:
 
 proxy_pass http://<internal_alb_dns>;
-❌ Incorrect:
+Incorrect:
 
 proxy_pass <internal_alb_dns>;
 
